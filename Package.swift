@@ -3,15 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "argon2",
+    name: "cArgon2",
     products: [
-        .library(
-            name: "argon2",
-            targets: ["argon2"]),
+        .library(name: "cArgon2", targets: ["cArgon2"]),
     ],
     targets: [
         .target(
-            name: "argon2",
+            name: "cArgon2",
             path: ".",
             exclude: [
                 "kats",
